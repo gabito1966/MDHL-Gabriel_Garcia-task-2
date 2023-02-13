@@ -1,0 +1,95 @@
+*{
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0em;
+    transition: all .5s;
+}
+header{
+    position: relative;
+    text-align: center;
+    width: 80%;
+    left: 10%;
+}
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    position: relative;
+    top: 4.5rem;
+    width: 65%;
+    right: 15%;
+    left: 0;
+}
+.banner{
+    width: 900px;
+    z-index: -1;
+    align-content: center;
+    position: relative;
+    top: 10%;
+    border: 1px solid #000000;
+    height:500px
+}
+nav a {
+    background-color: #0000ff;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 8rem;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    top: 2rem;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+a[href="#"] {
+    background-color: rgb(35, 105, 6);
+}
+
+a:hover{
+    background-color: rgb(85, 11, 7);
+    color: white;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.subtitulo{
+    top:0;
+    position: relative;
+    text-align: center;
+    width: 76%;
+    left: 12%;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: 1px solid #000000;
+}
+
+.eventos_logo {
+    top: 5rem;
+    position: relative;
+    width: 80%;
+    left: 10rem;
+
+}
+
+.logo {
+    top: 0;
+    width: 250px;
+    display:inline-block;
+}
+
+
+
+.eventos{
+    top:0;
+    padding-left: 60px;
+    display: inline-block;
+    width: 70%;
+    font-size: 1.5em;
+}
+
+
+

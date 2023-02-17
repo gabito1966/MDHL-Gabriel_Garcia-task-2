@@ -11,16 +11,18 @@ header{
     left: 10%;
 }
 h1{
-    font-size: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3rem;
     font-weight: bolder;
     position: relative;
-    top: 4.5rem;
+    top: 4rem;
     width: 65%;
-    right: 15%;
-    left: 0;
+    right: 10%;
+    left: 2rem;
 }
 .banner{
-    width: 95%;
+    width: 100%;
     z-index: -1;
     align-content: center;
     position: relative;
@@ -29,17 +31,19 @@ h1{
     height:800px
 }
 nav a {
+    display: flex;
+    justify-content: flex-end;
     background-color: #0000ff;
     margin: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: inline-block;
-    width: 8rem;
+    width: 7rem;
     text-align: center;
     position: relative;
-    left: 30%;
+    left: 25%;
     top: 2rem;
     border: 2px solid #000000;
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.6);
@@ -60,34 +64,125 @@ a:hover{
     top:0;
     position: relative;
     text-align: center;
-    width: 76%;
-    left: 12%;
+    width: 80%;
+    left: 10%;
     font-size: 2rem;
     font-weight: bolder;
     border: 1px solid #000000;
+
 }
 
 .eventos_logo {
+    display: flex;
+    justify-content: flex-start;
     top: 5rem;
     position: relative;
     width: 80%;
     left: 10rem;
-
+    
 }
 
 .logo {
     top: 0;
     width: 250px;
-    display:inline-block;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .eventos{
-    top:0;
+    top:100px;
     padding-left: 60px;
     display: inline-block;
     width: 70%;
     font-size: 1.5em;
 }
+.rules{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+.reglas{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.subtitulo-reglas{
+    font-size: 2rem;
+}
+.resumen{
+    width: 80vw;
+    margin: 50px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
 
+.resaltado{
+    font-size: 1.5rem;
+}
 
+.subtitulos-rules{
+    font-size: 2rem;
+    margin: 30px;
+}
+.parrafos{
+    font-size: 1.2rem;
+}
+.final{
+    margin-left: 40px;
+}
+.information{
+    text-align: center;
+}
 
+.info{
+    font-size: 3rem;
+}
+
+.games{
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.schedule{
+    padding: 80px;
+}
+.tabla {
+    margin: 50px;
+    width: 70%;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+th, td {
+    padding:10px;
+}
+
+th{
+    text-align: left;
+}
+.horarios{
+    padding-left: 150px;
+}
+
+.datos{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.contacto{
+    display: inline-flex;
+}
+
+.ultimo{
+    padding-left: 150px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #000000;
+    font-size: 2rem;
+    color: azure;
+    bottom: 0;
+    text-align: center;
+}
